@@ -21,11 +21,14 @@ To run the Ecommerce Admin Dashboard locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/ecommerce-admin-dashboard.git
+   https://github.com/IamOm775/easecom.git
    
 2. ```bash
-   cd ecommerce-admin-dashboard
+   cd easecom
+   ```
+   ```bash
    npm install
+   ```
    
 3. ## Set up the environment variables:
 
