@@ -34,11 +34,11 @@ To run the Ecommerce Admin Dashboard locally, follow these steps:
    Add the following environment variables:
 
 ## Database configuration
-   DB_HOST=your-mysql-host
-   DB_PORT=your-mysql-port
-   DB_USER=your-mysql-username
-   DB_PASSWORD=your-mysql-password
-   DB_NAME=your-mysql-database-name
+   - DB_HOST=your-mysql-host
+   - DB_PORT=your-mysql-port
+   - DB_USER=your-mysql-username
+   - DB_PASSWORD=your-mysql-password
+   - DB_NAME=your-mysql-database-name
 
 ## Clerk configuration
 CLERK_FRONTEND_API_KEY=your-clerk-frontend-api-key
