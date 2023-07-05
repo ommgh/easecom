@@ -1,5 +1,8 @@
 # easEcom
 
+![Screenshot (177)](https://github.com/IamOm775/easecom/assets/95044230/3b985b8a-dbac-4d49-880d-6fb3c15f1558)
+
+
 Ecommerce Admin Dashboard is built using Next.js and TypeScript. The website provides an intuitive admin dashboard interface for creating and managing ecommerce websites. It includes features such as product listing, updating, sales tracking, and Stripe integration for secure checkout.
 
 ## Technologies Used
@@ -43,7 +46,7 @@ CLERK_FRONTEND_API_KEY=your-clerk-frontend-api-key
 4. ## Start the development server:
    ```bash
    npm run dev
-5. ## Open your browser and navigate to http://localhost:3000 to access the website.
+5.  Open your browser and navigate to http://localhost:3000 to access the website.
 
 6. ## Contributions
    Contributions to this project are welcome! If you encounter any issues or have suggestions for improvement, please open an issue or submit a pull request.
