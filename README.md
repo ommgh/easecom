@@ -44,8 +44,8 @@ To run the Ecommerce Admin Dashboard locally, follow these steps:
    - DB_NAME=your-mysql-database-name
 
 ## Clerk configuration
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
+ NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY= <br>
+ CLERK_SECRET_KEY= 
 
 4. ## Start the development server:
    ```bash
