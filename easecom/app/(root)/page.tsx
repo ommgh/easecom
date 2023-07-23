@@ -1,12 +1,25 @@
-import {Button} from "@/components/ui/button";
-import {UserButton} from "@clerk/nextjs";
+"use client";
+
+import {Modal} from "@/components/ui/modal";
+import {userStoreModal} from "@/hooks/use-store-modal";
+import {state} from "sucrase/dist/types/parser/traverser/base";
+import {useEffect} from "react";
 
 const SetupPage = () => {
+    const onOpen = userStoreModal((state)=>state.onOpen);
+    const isOpen = userStoreModal((state)=>state.isOpen);
+
+    useEffect(()=>{
+        if (!isOpen){
+            onOpen();
+        }
+
+    },[isOpen, onOpen]);
+
     return (
         <div className={"p-4"}>
-            <UserButton afterSignOutUrl="/"/>
-            <p>This Is A Private Route</p>
-            <Button>HATT! BC</Button>
+            Root Page
+
         </div>
     );
 }
