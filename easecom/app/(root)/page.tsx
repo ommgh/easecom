@@ -1,27 +1,22 @@
 "use client";
 
-import {Modal} from "@/components/ui/modal";
-import {userStoreModal} from "@/hooks/use-store-modal";
-import {state} from "sucrase/dist/types/parser/traverser/base";
+import {useParams} from "next/navigation";
+import {useStoreModal} from "@/hooks/use-store-modal";
+
 import {useEffect} from "react";
 
 const SetupPage = () => {
-    const onOpen = userStoreModal((state)=>state.onOpen);
-    const isOpen = userStoreModal((state)=>state.isOpen);
+    const onOpen = useStoreModal((state)=>state.onOpen);
+    const isOpen = useStoreModal((state)=>state.isOpen);
 
     useEffect(()=>{
-        if (!isOpen){
+        if (!isOpen) {
             onOpen();
         }
 
     },[isOpen, onOpen]);
 
-    return (
-        <div className={"p-4"}>
-            Root Page
-
-        </div>
-    );
-}
+    return null;
+};
 
 export default SetupPage;
