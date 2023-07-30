@@ -47,6 +47,7 @@ To run the Ecommerce Admin Dashboard locally, follow these steps:
 - NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
 - CLERK_SECRET_KEY=
 
+
 4. ## Start the development server:
    ```bash
    npm run dev
