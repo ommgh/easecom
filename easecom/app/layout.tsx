@@ -3,13 +3,14 @@ import { Inter } from 'next/font/google'
 import {ClerkProvider } from "@clerk/nextjs";
 import {ModalProvider} from "@/providers/modal-provider";
 import React from "react";
+import {ToastProvider} from "@/providers/toast-provider";
 
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Admin Dashboard',
-  description: 'Ecom Dashboard',
+  description: 'Ecommerce Dashboard',
 }
 
 export default async function RootLayout({
@@ -21,6 +22,7 @@ export default async function RootLayout({
     <ClerkProvider>
       <html lang="en">
          <body className={inter.className}>
+         <ToastProvider/>
           <ModalProvider/>
           {children}
          </body>
