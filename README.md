@@ -25,7 +25,7 @@ Features:
 
 ## Cloning the repository
 ```
-git clone https://github.com/aoyo-jun/e-commerce-admin.git
+git clone https://github.com/ommgh/easeecom
 ```
 ## Install packages
 ```
