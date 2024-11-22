@@ -1,6 +1,4 @@
-# Full Stack E-Commerce + Dashboard & CMS using React & Next.js (Admin)
-
-The repository for my Full Stack E-Commerce website, I created this project following this [course](https://www.youtube.com/watch?v=5miHyP6lExg), but with my own little tweaks such as responsive Admin page.
+# Full Stack E-Commerce Dashboard using Next.js 
 
 Features:
 
@@ -19,7 +17,7 @@ Features:
 * Order creation
 * Stripe checkout
 * Stripe webhooks
-* MySQL + Prisma + PlanetScale
+* PostgreSQL + Prisma + NeonDB
 
 ## Prerequisites
 
@@ -58,7 +56,6 @@ STRIPE_WEBHOOK_SECRET=
 FRONTEND_STORE_URL=
 ```
 ## Setup Prisma
-Add MySQL Database (I used PlanetScale)
 ```
 npx prisma generate
 npx prisma db push
@@ -67,10 +64,3 @@ npx prisma db push
 ```
 npm run dev
 ```
-###### This README was partially copied from the original [next13-ecommerce-admin](https://github.com/AntonioErdeljac/next13-ecommerce-admin) repository.
-
-___
-
-Again, this amazing project is a [course](https://www.youtube.com/watch?v=5miHyP6lExg) by [Code with Antonio](https://www.youtube.com/@codewithantonio)!
-
-Another project following this awesome developer (aka Antonio), thank you so much for the learning experience 🙏
